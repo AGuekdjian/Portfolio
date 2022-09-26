@@ -20,7 +20,7 @@ export default function Portfolio() {
                             <h3>{ name }</h3>
                             <div className='portfolio__item-cv'>
                                 <a href={ github } className='btn ov-btn-slide-left' target='_blank'>Github</a>
-                                <a href={ url } className='btn btn-primary' target='_blank'>Show</a>
+                                <a href={ url } className='btn btn-primary' target='_blank'>Visit Page</a>
                             </div>
                         </article>
                     )
