@@ -1,0 +1,26 @@
+.error__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error__icon {
+    font-size: 58px;
+    color: var(--color-primary);
+}
+
+.error__content h1 {
+    font-size: 32px;
+}
+
+.error__content h1 span {
+    font-size: 38px;
+    color: var(--color-primary);
+}

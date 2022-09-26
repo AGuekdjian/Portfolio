@@ -1,0 +1,48 @@
+footer {
+    background: linear-gradient(var(--color-primary), var(--color-teal-dark));
+}
+
+.list__container {
+    height: 140px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+
+.list li a {
+    color: var(--color-dark-light);
+    height: 42px;
+    width: 42px;
+    margin: 8px 15px;
+    border: 2px solid var(--color-dark-light);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.list li a:hover {
+    background: var(--color-teal-dark);
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    transform: scale(1.3);
+}
+
+.copyright {
+    padding: 12px 8px;
+    text-align: center;
+}
+
+.copyright p {
+    color: var(--color-dark-light);
+    font-weight: bold;
+}

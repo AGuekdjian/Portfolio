@@ -1,0 +1,49 @@
+/* <=== ESTILOS AL CONTENEDOR DEL MODAL Y OVERLAY ===> */
+.modal,
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 20;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+
+/* <=== ESTILOS DEL MODAL ===> */
+.contenedor-buttons {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f2f2f2;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    z-index: 20;
+}
+
+/* <=== ESTILOS AL BOTON CLOSE ===> */
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: #F2F2F2;
+    text-align: center;
+    border-radius: 50%;
+    transition: .3s;
+}
