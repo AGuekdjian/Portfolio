@@ -33,18 +33,6 @@ nav a.active {
     color: var(--color-white);
 }
 
-/* =============  MEDIA QUERIES (MEDIUM DEVICES)  =============*/
-@media screen and (max-width: 1024px) {
-    /* nav {
-        padding: 0.7rem 1.7rem;
-        top: 90.5%;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 2rem;
-        display: flex;
-        flex-direction: row;
-    } */
-}
 
 /* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
 @media screen and (max-width: 600px) {

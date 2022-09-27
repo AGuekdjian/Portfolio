@@ -8,7 +8,7 @@ import { AiOutlineTwitter } from 'react-icons/ai'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className='fix__footer'>
             <div className='list__container'>
                 <ul className='list'>
                     <li><a href='https://www.facebook.com/AGuekdjian' target='_blank'><BsFacebook /></a></li>

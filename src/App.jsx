@@ -18,6 +18,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path='/' element={<Header />} />
+          <Route path='/home' element={<Header />} />
           <Route path='/about' element={<About />} />
           <Route path='/experience' element={<Experience />} />
           <Route path='/services' element={
