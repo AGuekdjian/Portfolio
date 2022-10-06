@@ -22,13 +22,14 @@ const Testimonials = () => {
                 slidesPerView={1}
                 pagination={{clickable: true}}>
                 {
-                    data.map(({ id, avatar, name, review }) => {
+                    data.map(({ id, avatar, name, puesto, review }) => {
                         return (
                             <SwiperSlide key={id} className='testimonial'>
                                 <div className='client__avatar'>
                                     <img src={avatar} alt='avatar 1' />
                                 </div>
                                 <h5 className='client__name'>{name}</h5>
+                                <h5 className='client__puesto'>{puesto}</h5>
                                 <small className='client__review'>{review}</small>
                             </SwiperSlide>
                         )

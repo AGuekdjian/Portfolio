@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import CV from '../../assets/cv.pdf'
-import { Link } from 'react-router-dom'
 
 const CVitae = () => {
 
@@ -10,7 +9,7 @@ const CVitae = () => {
         <>
             <div className='cv'>
                 <a href={CV} download className='btn ov-btn-slide-left' >Download CV</a>
-                <Link to='/contact' className='btn btn-primary' onClick={() => setState(true)}>Let's Talk</Link>
+                <a href='#contact' className='btn btn-primary' onClick={() => setState(true)}>Let's Talk</a>
             </div>
 
             {/* {state && (

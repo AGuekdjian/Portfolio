@@ -1,5 +1,6 @@
 footer {
     background: linear-gradient(var(--color-primary), var(--color-teal-dark));
+    margin-top: 80px;
 }
 
 .list__container {

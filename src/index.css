@@ -74,7 +74,7 @@ h1 {
 }
 
 section {
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 4rem;
 }
 
@@ -176,6 +176,13 @@ img {
     object-fit: cover;
 }
 
+/* =============  MEDIA QUERIES (MEDIUM DEVICES)  =============*/
+@media screen and (min-width: 769px) {
+    section {
+        height: 100vh;
+    }
+}
+
 /* =============  MEDIA QUERIES (LARGE DEVICES)  =============*/
 @media screen and (max-width: 1440px) {
     .experience__details-icon {
@@ -187,11 +194,6 @@ img {
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
-    }
-
-    section {
-        margin-top: 3rem;
-        margin-bottom: 6rem;
     }
 
     .experience__details-icon {
@@ -235,7 +237,7 @@ img {
     }
 
     section {
-        margin-top: 7rem;
+        margin-top: 4rem;
     }
 
     section>h2 {
@@ -275,10 +277,6 @@ img {
         grid-template-columns: 1fr;
         gap: 0.5rem;
         right: -2px;
-    }
-
-    .fix__footer {
-        margin-top: 290px;
     }
 }
 

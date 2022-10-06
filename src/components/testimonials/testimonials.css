@@ -10,6 +10,12 @@
     border-radius: 50%;
     margin: 0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.client__avatar:hover {
+    transform: scale(1.3);
 }
 
 .testimonial {
@@ -18,6 +24,17 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+}
+
+.client__name {
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+.client__puesto {
+    font-size: 14px;
+    color: var(--color-white);
+    font-weight: 800;
 }
 
 .client__review {
