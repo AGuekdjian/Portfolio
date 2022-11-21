@@ -16,10 +16,8 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <div className='container content__components'>
-        <Services />
-        <Portfolio />
-      </div>
+      <Services />
+      <Portfolio />
       <Testimonials />
       <Contact />
       <Footer />

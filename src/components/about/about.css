@@ -1,6 +1,6 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50% ;
+    grid-template-columns: 35% 50%;
     gap: 2%;
     padding-left: 110px;
 }
@@ -12,17 +12,22 @@
 
 .about__me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    border-radius: 12rem 12rem 0 0;
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
     overflow: hidden;
-    padding: 0 1.5rem 1.5rem 1.5rem;
     display: grid;
     place-items: center;
     backdrop-filter: blur(2px);
+    margin-top: 80px;
 }
 
-
+.img__about__me {
+    width: 410px;
+    position: relative;
+    top: 5px;
+    right: 40px;
+}
 
 .about__cards {
     display: grid;
@@ -92,9 +97,22 @@
     }
 
     .about__me {
-        width: 65%;
-        height: 35%;
-        margin: 0 auto;
+        background: linear-gradient(var(--color-primary), transparent);
+        width: 290px;
+        height: 290px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: grid;
+        place-items: center;
+        backdrop-filter: blur(2px);
+        margin-top: 80px;
+    }
+    
+    .img__about__me {
+        width: 410px;
+        position: relative;
+        top: 5px;
+        right: 66px;
     }
 
     .about__cards {

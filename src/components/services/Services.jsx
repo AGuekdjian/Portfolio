@@ -5,30 +5,26 @@ import { BiCheck } from 'react-icons/bi'
 const Services = () => {
     return (
         <section id='services'>
-            <h5>What I Offer</h5>
-            <h2>Services</h2>
+            <h5>Que ofresco</h5>
+            <h2>Servicios</h2>
 
             <div className='services__container'>
                 <article className='service'>
                     <div className='service__head'>
-                        <h3>Web Development</h3>
+                        <h3>Desarrollo Web</h3>
                     </div>
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>A creative and modern website from very scratch using latest web technologies.</p>
+                            <p>Un sitio web creativo, moderno y optimizado desde cero utilizando las últimas tecnologías web.</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>Modern technologies like React, JavaScript, CSS3, and Bootstrap Framework.</p>
+                            <p>Tecnologías modernas como React, JavaScript, CSS3 y Bootstrap Framework.</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>A fully responsive website that will look perfect on all the small & wide screens.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>I will use Web fonts, colors & icons, Web tools, Web animations, CSS3 media queries, Responsive layout, Optimizing website.</p>
+                            <p>Un sitio web totalmente receptivo que se verá perfectamente en todas las pantallas pequeñas y anchas.</p>
                         </li>
                     </ul>
                 </article>

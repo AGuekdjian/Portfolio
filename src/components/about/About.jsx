@@ -5,24 +5,31 @@ import ME from '../../../public/me-about.png'
 const About = () => {
     return (
         <section id='about'>
-            <h5>Get To Know</h5>
-            <h2>About Me</h2>
+            <h5>Conozca</h5>
+            <h2>Sobre mí</h2>
 
             <div className='container about__container'>
                 <div className='about__me'>
-                    <img src={ME} alt='About Me' />
+                    <img src={ME} alt='About Me' className='img__about__me' />
                 </div>
 
                 <div className='about__content'>
                     <p>
-                    I am a person who loves challenges, who does not give up easily, responsible, detail-oriented and self-taught.<br/>
-                    That's why I decided to dedicate myself to programming, as it is a world where these skills are valued.<br/>
-                    I like to work in diverse teams and projects that allow me to continuously learn about different technologies, methods and solutions.<br/> 
-                    Currently, I am focused on building web applications and I am looking to join a committed, dynamic and motivated team to contribute my skills and continue improving my knowledge.<br/>
+                        Me gusta trabajar en equipos y proyectos diversos
+                        que me permitan aprender continuamente sobre
+                        diversas tecnologías, métodos y soluciones.
+                        Actualmente, estoy enfocado en la construcción
+                        de aplicaciones web. <br />
+                        Soy una persona que ama los desafíos, que no se
+                        rinde fácilmente, responsable, detallista y
+                        autodidacta. <br />
+                        Por eso he decidido dedicarme a la programación,
+                        ya que es un mundo donde se valoran estas
+                        capacidades.
 
                     </p>
 
-                    <a href='#contact' className='btn ov-btn-slide-left'>Let's Talk</a>
+                    <a href='#contact' className='btn ov-btn-slide-left'>Contactar</a>
                 </div>
             </div>
         </section>

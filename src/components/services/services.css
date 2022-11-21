@@ -1,8 +1,7 @@
 .services__container {
-    /* display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem; */
-    display: flex;
+    gap: 3rem;
     justify-content: center;
 }
 
@@ -70,5 +69,6 @@
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        margin: 15px;
     }
 }

@@ -5,7 +5,7 @@ import { data } from './projects'
 export default function Portfolio() {
     return (
         <section id='portfolio'>
-            <h5>My Recent Work</h5>
+            <h5>Mis trabajos recientes</h5>
             <h2>Portfolio</h2>
 
             <div className='portfolio__container'>
@@ -20,7 +20,7 @@ export default function Portfolio() {
                             <h3>{ name }</h3>
                             <div className='portfolio__item-cv'>
                                 <a href={ github } className='btn ov-btn-slide-left' target='_blank'>Github</a>
-                                <a href={ url } className='btn btn-primary' target='_blank'>Visit Page</a>
+                                <a href={ url } className='btn btn-primary' target='_blank'>Visitar</a>
                             </div>
                         </article>
                     )

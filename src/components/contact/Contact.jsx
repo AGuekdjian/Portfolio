@@ -18,8 +18,8 @@ export default function Contact() {
 
     return (
         <section id='contact'>
-            <h5>Get In Touch</h5>
-            <h2>Contact Me</h2>
+            <h5>Ponte en contacto</h5>
+            <h2>Contáctame</h2>
 
             <div className='container contact__container'>
                 <div className='contact__options'>
@@ -27,21 +27,21 @@ export default function Contact() {
                         <MdOutlineEmail className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5 className='correcion'>anthonyguekdjian@gmail.com</h5>
-                        <a href='mailto:anthonyguekdjian@gmail.com' target='_blank'>Send a message</a>
+                        <a href='mailto:anthonyguekdjian@gmail.com' target='_blank'>Enviar Mensaje</a>
                     </article>
                     <article className='contact__option'>
                         <FaWhatsapp className='contact__option-icon' />
                         <h4>Whatsapp</h4>
                         <h5>+598 098 452 454</h5>
-                        <a href='https://wa.me/+598098452454' target='_blank'>Send a message</a>
+                        <a href='https://wa.me/+598098452454' target='_blank'>Enviar Mensaje</a>
                     </article>
                 </div>
 
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type='text' name='name' placeholder='Your Full Name' required />
-                    <input type='email' name='email' placeholder='Your Email' required />
-                    <textarea name='message' rows='7' placeholder='Your Message' required ></textarea>
-                    <button type='submit' className='btn ov-btn-slide-left btn-style'>Send Message</button>
+                    <input type='text' name='name' placeholder='Nombre Completo' required />
+                    <input type='email' name='email' placeholder='Correo Electrónico' required />
+                    <textarea name='message' rows='7' placeholder='Mensaje' required ></textarea>
+                    <button type='submit' className='btn ov-btn-slide-left btn-style'>Enviar Mensaje</button>
                 </form>
             </div>
         </section>

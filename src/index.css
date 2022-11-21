@@ -11,12 +11,13 @@
 }
 
 :root {
-    --color-bg: #1c2833;
-    --color-bg-variant: #1b4f72;
+    --color-bg: #100f0f;
+    --color-bg-variant: #072327;
+    --color-bg-pink-variant: #5f2998;
     --color-primary: #26A69A;
     --color-primary-variant: rgb(38, 166, 154, .4);
     --color-white: #fff;
-    --color-light: rgba(255, 255, 255, .6);
+    --color-light: #7d9aac;
     --color-dark: #292424;
     --color-dark-light: #332D2D;
     --color-danger: #DC4C64;
@@ -25,6 +26,7 @@
     --color-teal-dark: #004D40;
     --color-violet: #4A148C;
     --color-pink: #C2185B;
+    --color-pink-variant: rgba(194, 24, 92, 0.404);
 
     --transition: all 400ms ease;
 
@@ -70,7 +72,7 @@ h5 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 section {
@@ -264,10 +266,10 @@ img {
 @media screen and (max-width: 425px) {
     nav {
         padding: 0.7rem 1.7rem;
-        bottom: 85.9%;
+        top: 85.9%;
         left: 50%;
         transform: translateX(-50%);
-        top: 2rem;
+        bottom: 2rem;
         display: flex;
         flex-direction: row;
     }
@@ -290,10 +292,10 @@ img {
 
     nav {
         padding: 0.7rem 1.7rem;
-        bottom: 87.2%;
+        top: 87.2%;
         left: 50%;
         transform: translateX(-50%);
-        top: 2rem;
+        bottom: 2rem;
         display: flex;
         flex-direction: row;
     }
@@ -311,10 +313,10 @@ img {
 @media screen and (max-width: 320px) {
     nav {
         padding: 0.7rem 1.7rem;
-        bottom: 87.2%;
+        top: 87.2%;
         left: 50%;
         transform: translateX(-50%);
-        top: 2rem;
+        bottom: 2rem;
         display: flex;
         flex-direction: row;
     }
