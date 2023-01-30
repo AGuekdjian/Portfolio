@@ -1,8 +1,7 @@
 .container.contact__container {
-    width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    grid-template-columns: 1fr;
+    gap: 2rem;
 }
 
 .contact__options {
@@ -45,11 +44,10 @@ form {
 }
 
 .btn-style {
-    position: relative;
-    left: 190px;
+    margin: 0 auto;
 }
 
-input, 
+input,
 textarea {
     width: 100%;
     padding: 1.5rem;
@@ -64,48 +62,20 @@ input {
     border-radius: 2.5rem;
 }
 
-/* =============  MEDIA QUERIES (MEDIUM DEVICES)  =============*/
-@media screen and (max-width: 1024px) {
+/* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
+@media screen and (min-width: 600px) {
+
     .container.contact__container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
+        grid-template-columns: 30% 58%;
+        gap: 12%;
     }
 
     .btn-style {
         position: relative;
         left: 165px;
     }
-}
-
-/* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
-@media screen and (max-width: 768px) {
-}
-
-/* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
-@media screen and (max-width: 600px) {
-    .container.contact__container {
-        width: var(--container-width-sm);
-    }
-
-    .btn-style {
-        position: relative;
-        left: 90px;
-    }
-
-    /* .contact__options {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        gap: 1.2rem;
-        margin: 0 auto;
-        margin-right: 20px;
-    } */
 
     .contact__option {
         padding: 1.8rem;
     }
-
-    /* .correcion {
-        position: relative;
-        right: 20px;
-    } */
 }

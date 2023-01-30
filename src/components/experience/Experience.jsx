@@ -4,7 +4,7 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 
 const Experience = () => {
     return (
-        <section id='experience'>
+        <section id='experience' className='section-fix'>
             <h5>Qué habilidades tengo</h5>
             <h2>Mi Experiencia</h2>
 

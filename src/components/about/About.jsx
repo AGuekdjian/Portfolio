@@ -7,12 +7,10 @@ const About = () => {
         <section id='about'>
             <h5>Conozca</h5>
             <h2>Sobre mí</h2>
-
             <div className='container about__container'>
                 <div className='about__me'>
                     <img src={ME} alt='About Me' className='img__about__me' />
                 </div>
-
                 <div className='about__content'>
                     <p>
                         Me gusta trabajar en equipos y proyectos diversos
@@ -26,9 +24,7 @@ const About = () => {
                         Por eso he decidido dedicarme a la programación,
                         ya que es un mundo donde se valoran estas
                         capacidades.
-
                     </p>
-
                     <a href='#contact' className='btn ov-btn-slide-left'>Contactar</a>
                 </div>
             </div>

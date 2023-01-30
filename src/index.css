@@ -29,10 +29,6 @@
     --color-pink-variant: rgba(194, 24, 92, 0.404);
 
     --transition: all 400ms ease;
-
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
 }
 
 html {
@@ -53,14 +49,8 @@ body {
 
 /* =============  GENERAL STYLES  =============*/
 .container {
-    width: var(--container-width-lg);
+    width: 100%;
     margin: 0 auto;
-}
-
-.content__components {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 5%;
 }
 
 h1,
@@ -76,8 +66,8 @@ h1 {
 }
 
 section {
-    /* height: 100vh; */
-    margin-top: 4rem;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 section>h2,
@@ -178,65 +168,15 @@ img {
     object-fit: cover;
 }
 
-/* =============  MEDIA QUERIES (MEDIUM DEVICES)  =============*/
-@media screen and (min-width: 769px) {
+/*=============  MEDIA QUERIES (MEDIUM DEVICES)  =============*/
+@media screen and (min-width: 600px) {
     section {
         height: 100vh;
     }
 }
 
-/* =============  MEDIA QUERIES (LARGE DEVICES)  =============*/
-@media screen and (max-width: 1440px) {
-    .experience__details-icon {
-        margin: 4px -10px 0 18px;
-    }
-}
-
-/* =============  MEDIA QUERIES (LARGE DEVICES)  =============*/
-@media screen and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-md);
-    }
-
-    .experience__details-icon {
-        margin: 4px -10px 0 18px;
-    }
-
-    .experience__container {
-        display: grid;
-        grid-template-columns:50% 50%;
-        gap: 0.5rem;
-    }
-}
-
-/* =============  MEDIA QUERIES (MEDIUM DEVICES)  =============*/
-@media screen and (max-width: 768px) {
-
-    .experience__container {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        gap: 2rem;
-        position: relative;
-        right: 25px;
-    }
-
-    .experience__backend {
-        width: 350px !important;
-    }
-
-    .content__components {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        gap: 1.5rem;
-        padding: 18px;
-    }
-}
-
 /* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
 @media screen and (max-width: 600px) {
-    .container {
-        width: var(--container-width-sm);
-    }
 
     section {
         margin-top: 4rem;
@@ -244,99 +184,5 @@ img {
 
     section>h2 {
         margin-bottom: 2rem;
-    }
-
-    .content__components {
-        display: flex;
-        flex-direction: column;
-    }
-
-    nav {
-        padding: 0.7rem 1.7rem;
-        bottom: 88%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 2rem;
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-/* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
-@media screen and (max-width: 425px) {
-    nav {
-        padding: 0.7rem 1.7rem;
-        top: 85.9%;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 2rem;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .experience__container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0.5rem;
-        right: -2px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .experience__container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0.5rem;
-        right: 6px;
-    }
-
-    nav {
-        padding: 0.7rem 1.7rem;
-        top: 87.2%;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 2rem;
-        display: flex;
-        flex-direction: row;
-    }
-
-    nav a {
-        background: transparent;
-        padding: 0.6rem;
-        border-radius: 50%;
-        display: flex;
-        color: var(--color-light);
-        font-size: 1.1rem;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    nav {
-        padding: 0.7rem 1.7rem;
-        top: 87.2%;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 2rem;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .list li a {
-        height: 32px;
-        width: 32px;
-        margin: 8px 15px;
-    }
-
-    .experience__backend {
-        width: 300px !important;
-    }
-
-    nav a {
-        background: transparent;
-        padding: 0.6rem;
-        border-radius: 50%;
-        display: flex;
-        color: var(--color-light);
-        font-size: 1.1rem;
     }
 }

@@ -1,77 +1,48 @@
 .about__container {
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 2%;
-    padding-left: 110px;
-}
-
-.about__content {
-    text-align: center;
-    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
 }
 
 .about__me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 340px;
-    height: 340px;
+    width: 290px;
+    height: 290px;
     border-radius: 50%;
     overflow: hidden;
     display: grid;
     place-items: center;
     backdrop-filter: blur(2px);
-    margin-top: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .img__about__me {
     width: 410px;
     position: relative;
     top: 5px;
-    right: 40px;
+    right: 66px;
 }
 
 .about__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
-.about__card {
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
+.about__content {
     text-align: center;
-    transition: var(--transition);
-}
-
-.about__card:hover {
-    background: transparent;
-    border-color: var(--color-bg-variant);
-    cursor: default;
-}
-
-.about__icon {
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
-.about__card h5 {
-    font-size: 0.95rem;
-}
-
-.about__card small {
-    font-size: 0.7rem;
-    color: var(--color-light);
+    position: relative;
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    margin: 1.5rem 0;
 }
 
+
+
+
 /* =============  MEDIA QUERIES (MEDIUM DEVICES)  =============*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .about__container {
         grid-template-columns: repeat(2, 1fr);
         gap: 2.8rem;
@@ -89,44 +60,84 @@
 }
 
 /* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .about__container {
-        display: flex;
-        flex-direction: column;
-        padding-left: 0;
+        display: grid;
+        grid-template-columns: 35% 50%;
+        gap: 2%;
+        padding-left: 110px;
     }
-
+    
+    .about__content {
+        margin-top: 40px;
+    }
+    
     .about__me {
         background: linear-gradient(var(--color-primary), transparent);
-        width: 290px;
-        height: 290px;
+        position: relative;
+        width: 340px;
+        height: 340px;
         border-radius: 50%;
         overflow: hidden;
         display: grid;
         place-items: center;
         backdrop-filter: blur(2px);
-        margin-top: 80px;
+        top: 60px;
+        right: 190px;
     }
     
     .img__about__me {
         width: 410px;
         position: relative;
         top: 5px;
-        right: 66px;
+        right: 40px;
     }
-
+    
     .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
     }
-
-    .about__content {
+    
+    .about__card {
+        background: var(--color-bg-variant);
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        padding: 2rem;
         text-align: center;
-        position: relative;
-        bottom: 160px;
+        transition: var(--transition);
     }
-
+    
+    .about__card:hover {
+        background: transparent;
+        border-color: var(--color-bg-variant);
+        cursor: default;
+    }
+    
+    .about__icon {
+        color: var(--color-primary);
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .about__card h5 {
+        font-size: 0.95rem;
+    }
+    
+    .about__card small {
+        font-size: 0.7rem;
+        color: var(--color-light);
+    }
+    
     .about__content p {
-        margin: 1.5rem 0;
+        margin: 2rem 0 2.6rem;
+        color: var(--color-light);
+    }
+}
+
+/* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
+@media screen and (min-width: 425px) {
+    .about__me {
+        margin-left: 45px;
     }
 }

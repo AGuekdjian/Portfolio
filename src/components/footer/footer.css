@@ -21,7 +21,7 @@ footer {
     color: var(--color-dark-light);
     height: 42px;
     width: 42px;
-    margin: 8px 15px;
+    margin: 8px 10px;
     border: 2px solid var(--color-dark-light);
     border-radius: 50%;
     display: flex;

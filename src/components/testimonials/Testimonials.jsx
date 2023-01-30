@@ -1,9 +1,7 @@
 import React from 'react'
 import './testimonials.css'
 import { data } from './data'
-
 import { Pagination } from 'swiper'
-
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper Styles
@@ -20,7 +18,7 @@ const Testimonials = () => {
                 modules={[Pagination]}
                 spaceBetween={40}
                 slidesPerView={1}
-                pagination={{clickable: true}}>
+                pagination={{ clickable: true }}>
                 {
                     data.map(({ id, avatar, name, puesto, review }) => {
                         return (
