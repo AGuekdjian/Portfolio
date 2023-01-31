@@ -1,4 +1,4 @@
-import AVTR1 from '../../../public/CelesteTroccayoli.png'
+import AVTR1 from '/CelesteTroccayoli.png'
 
 const data = [
     {

@@ -17,7 +17,7 @@ export default function Contact() {
     };
 
     return (
-        <section id='contact'>
+        <section id='contact' className='contact-fix-desktop'>
             <h5>Ponte en contacto</h5>
             <h2>Contáctame</h2>
 

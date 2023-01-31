@@ -47,3 +47,9 @@ footer {
     color: var(--color-dark-light);
     font-weight: bold;
 }
+
+@media screen and (min-width: 600px) {
+    footer {
+        margin-top: -40px;
+    }
+}

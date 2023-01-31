@@ -51,3 +51,13 @@
 .service__list p {
     font-size: 0.9rem;
 }
+
+@media screen and (min-width: 600px) {
+    .section-fix-desktop {
+        margin-top: 430px;
+    }
+
+    .service {
+        width: 80%;
+    }
+}

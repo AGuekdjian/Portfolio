@@ -62,8 +62,9 @@
 /* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
 @media screen and (min-width: 600px) {
     .about__container {
+        width: 100%;
         display: grid;
-        grid-template-columns: 35% 50%;
+        grid-template-columns: 37% 50%;
         gap: 2%;
         padding-left: 110px;
     }
@@ -83,7 +84,7 @@
         place-items: center;
         backdrop-filter: blur(2px);
         top: 60px;
-        right: 190px;
+        right: 155px;
     }
     
     .img__about__me {

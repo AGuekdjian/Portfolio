@@ -4,7 +4,7 @@ import { data } from './projects'
 
 export default function Portfolio() {
     return (
-        <section id='portfolio' className='section-fix'>
+        <section id='portfolio' className='section-fix portfolio-fix-desktop'>
             <h5>Mis trabajos recientes</h5>
             <h2>Portfolio</h2>
 

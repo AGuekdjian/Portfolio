@@ -3,7 +3,7 @@
 }
 
 .client__avatar {
-    width: 4rem;
+    width: 6rem;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 50%;
@@ -49,5 +49,7 @@
 
 /* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
 @media screen and (min-width: 600px) {
-
+    .service-fix-desktop {
+        margin-top: 220px;
+    }
 }

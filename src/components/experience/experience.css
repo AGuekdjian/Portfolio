@@ -1,14 +1,12 @@
 .experience__container {
+    width: 100%;
     gap: 1rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .experience__backend {
-    width: 680px !important;
-}
-
-.experience__container>div {
     width: 100%;
     background: var(--color-bg-variant);
     padding: 2rem 1rem;
@@ -17,14 +15,14 @@
     transition: var(--transition);
 }
 
-.experience__container>div:hover {
+.experience__backend:hover {
     background: transparent;
     border-color: var(--color-bg-variant);
     backdrop-filter: blur(2px);
     cursor: default;
 }
 
-.experience__container>div h3 {
+.experience__backend h3 {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
@@ -53,13 +51,12 @@
     }
 }
 
-/* =============  MEDIA QUERIES (MEDIUM DEVICES)  =============*/
-@media screen and (min-width: 1024px) {
-
-}
-
 /* =============  MEDIA QUERIES (SMALL DEVICES)  =============*/
 @media screen and (min-width: 600px) {
+    .experience__backend {
+        width: 80%;
+    }
+
     .experience__container {
         gap: 2rem;
     }
@@ -67,5 +64,9 @@
     .experience__container>div {
         padding: 2.4rem 5rem;
     }
+}
+
+/* =============  MEDIA QUERIES (MEDIUM DEVICES)  =============*/
+@media screen and (min-width: 1024px) {
 
 }

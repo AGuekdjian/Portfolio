@@ -70,12 +70,11 @@ input {
         gap: 12%;
     }
 
-    .btn-style {
-        position: relative;
-        left: 165px;
-    }
-
     .contact__option {
         padding: 1.8rem;
+    }
+
+    .contact-fix-desktop {
+        margin-top: -90px;
     }
 }
