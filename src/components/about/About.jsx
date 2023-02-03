@@ -4,7 +4,7 @@ import ME from '/me-about.png'
 
 const About = () => {
     return (
-        <section id='about'>
+        <section id='about' className='section-about-fix'>
             <h5>Conozca</h5>
             <h2>Sobre mí</h2>
             <div className='container about__container'>

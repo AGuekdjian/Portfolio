@@ -61,3 +61,16 @@
         width: 80%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .section-fix-desktop {
+        margin-top: 230px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section-fix-desktop {
+        margin-top: 430px;
+        margin-bottom: 150px;
+    }
+}

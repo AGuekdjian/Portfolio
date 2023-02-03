@@ -52,4 +52,30 @@
     .service-fix-desktop {
         margin-top: 220px;
     }
+
+    .container.testimonials__container {
+        width: 80%;
+    }
+}
+
+/* =============  MEDIA QUERIES (LARGE DEVICES)  =============*/
+@media screen and (min-width: 1024px) {
+    .service-fix-desktop {
+        margin-top: 100px;
+    }
+
+    .container.testimonials__container {
+        width: 80%;
+    }
+}
+
+/* =============  MEDIA QUERIES (LARGE DEVICES)  =============*/
+@media screen and (min-width: 1440px) {
+    .service-fix-desktop {
+        margin-top: 500px;
+    }
+
+    .container.testimonials__container {
+        width: 80%;
+    }
 }

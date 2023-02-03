@@ -14,7 +14,7 @@ footer {
 .list {
     display: flex;
     position: relative;
-    top: 20px;
+    top: 0px;
 }
 
 .list li a {
@@ -41,6 +41,7 @@ footer {
 .copyright {
     padding: 12px 8px;
     text-align: center;
+    margin-top: 14px;
 }
 
 .copyright p {
@@ -51,5 +52,13 @@ footer {
 @media screen and (min-width: 600px) {
     footer {
         margin-top: -40px;
+    }
+
+    .list {
+        top: 20px;
+    }
+
+    .copyright {
+        margin-top: 0px;
     }
 }

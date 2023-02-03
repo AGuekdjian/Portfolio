@@ -66,8 +66,9 @@ input {
 @media screen and (min-width: 600px) {
 
     .container.contact__container {
-        grid-template-columns: 30% 58%;
-        gap: 12%;
+        grid-template-columns: 38% 48%;
+        gap: 3%;
+        margin: 0 50% 0 1%;
     }
 
     .contact__option {
@@ -76,5 +77,30 @@ input {
 
     .contact-fix-desktop {
         margin-top: -90px;
+    }
+}
+
+/* =============  MEDIA QUERIES (LARGE DEVICES)  =============*/
+@media screen and (min-width: 1024px) {
+
+    .container.contact__container {
+        grid-template-columns: 28% 48%;
+        gap: 12%;
+        margin: 0 50% 0 1%;
+    }
+
+    .contact__option {
+        padding: 1.8rem;
+    }
+
+    .contact-fix-desktop {
+        margin-top: -327px;
+    }
+}
+
+/* =============  MEDIA QUERIES (LARGE DEVICES)  =============*/
+@media screen and (min-width: 1440px) {
+    .contact-fix-desktop {
+        margin-top: -127px;
     }
 }

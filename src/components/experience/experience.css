@@ -68,5 +68,7 @@
 
 /* =============  MEDIA QUERIES (MEDIUM DEVICES)  =============*/
 @media screen and (min-width: 1024px) {
-
+    .section-fix {
+        margin-top: 0px;
+    }
 }
