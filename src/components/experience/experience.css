@@ -72,3 +72,18 @@
         margin-top: 0px;
     }
 }
+
+/* =============  MEDIA QUERIES (LARGE DEVICES)  =============*/
+@media screen and (min-width: 1440px) {
+    .experience__container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 0;
+        row-gap: 8%;
+        justify-items: center;
+    }
+
+    .experience__container>div {
+        padding: 0 auto;
+    }
+}
